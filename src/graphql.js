@@ -1,6 +1,7 @@
 const fs = require("fs");
 const fetch = require("node-fetch")
-const tunnel = require('tunnel');
+const HttpsProxyAgent = require('https-proxy-agent');
+
 const Operation_Hashes = {
     'CollectionSideBar': '27111f1b382effad0b6def325caef1909c733fe6a4fbabf54f8d491ef2cf2f14',
     'FilterableVideoTower_Videos': 'a937f1d22e269e39a03b509f65a7490f9fc247d7f83d6ac1421523e3b68042cb',
@@ -28,7 +29,7 @@ const GraphQL = {
     SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = false, proxy = '') => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
-        let proxyString = (proxy === '' || proxy === undefined || proxy === null) ? null : proxy
+        let proxyString = (proxy === '') ? null : proxy
         
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
@@ -57,33 +58,23 @@ const GraphQL = {
 
             //session + device + client
             
-            let agent = null
+            let ProxyAgent = null;
             if (proxyString !== null){
                 var parts = proxyString.split(':');
                 let ip = parts[0];
-                let portO = parts[1];
+                let port = parts[1];
                 let username = parts.length > 2 ? parts[2] : "";
                 let password = parts.length > 2 ? parts[3] : "";
     
                 if (parts.length > 2){
-                    agent = tunnel.httpsOverHttp({
-                        proxy: {
-                            host: `http://${ip}:${portO}`,
-                            proxyAuth: `${username}:${password}`,
-                        },
-                    });
+                    proxyString = `http://${username}:${password}@${ip}:${port}`
                 }
                 else {
-                    agent = tunnel.httpsOverHttp({
-                        proxy: {
-                            host: `http://${ip}:${portO}`,
-                        },
-                    });
+                    proxyString = `http://${ip}:${port}`
                 }
+                ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
-
-            console.log(agent);
-            const response = await fetch('https://twitch.tv', {agent: agent});
+            const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
             let cookies = response.headers.raw()["set-cookie"]
 
             cookies.forEach((cookie) => {
@@ -145,18 +136,18 @@ const GraphQL = {
             });
             GraphGQLResponse = await GraphGQLRequest.json();
         } catch (error) {
-            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy)
+            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxyString)
         }
         
         if (GraphGQLResponse.errors || (GraphGQLResponse[0] && GraphGQLResponse[0].errors) || GraphGQLResponse.error) {
-            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, proxy)
+            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, proxyString)
         }
         GraphQL.retries = 0;
         return GraphGQLResponse
     }
 }
 
-async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy) {
+async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxyString) {
     if (GraphQL.retries < GraphQL.maxretries) {
         GraphQL.retries++
         if (error instanceof Array) {
@@ -166,7 +157,7 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
             console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
         }
         await delay(GraphQL.retrytimeout)
-        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxy);
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxyString);
     } else {
         if (error.code === undefined) {
             if (error instanceof Array) {
