@@ -74,7 +74,7 @@ const GraphQL = {
                 }
                 ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
-            const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
+            const response = await fetch('https://twitch.tv', {agent: null});
             let cookies = response.headers.raw()["set-cookie"]
 
             cookies.forEach((cookie) => {
@@ -95,7 +95,7 @@ const GraphQL = {
             //integrity
 
             const result = await fetch('https://gql.twitch.tv/integrity', {
-                agent: ProxyAgent,
+                agent: null,
                 method: 'post',
                 body: JSON.stringify({}),
                 headers: {
@@ -122,7 +122,7 @@ const GraphQL = {
         
         try {
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
-                agent: ProxyAgent,
+                agent: null,
                 method: 'post',
                 body: JSON.stringify(body),
                 headers: {
