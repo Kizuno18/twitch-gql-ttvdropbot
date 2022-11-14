@@ -74,7 +74,7 @@ const GraphQL = {
                 }
                 ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
-            const response = await fetch('https://twitch.tv', {agent: null});
+            const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
             let cookies = response.headers.raw()["set-cookie"]
 
             cookies.forEach((cookie) => {
@@ -95,7 +95,7 @@ const GraphQL = {
             //integrity
 
             const result = await fetch('https://gql.twitch.tv/integrity', {
-                agent: null,
+                agent: ProxyAgent,
                 method: 'post',
                 body: JSON.stringify({}),
                 headers: {
@@ -122,7 +122,7 @@ const GraphQL = {
         
         try {
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
-                agent: null,
+                agent: ProxyAgent,
                 method: 'post',
                 body: JSON.stringify(body),
                 headers: {
@@ -136,18 +136,18 @@ const GraphQL = {
             });
             GraphGQLResponse = await GraphGQLRequest.json();
         } catch (error) {
-            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset)
+            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy)
         }
         
         if (GraphGQLResponse.errors || (GraphGQLResponse[0] && GraphGQLResponse[0].errors) || GraphGQLResponse.error) {
-            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset)
+            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, proxy)
         }
         GraphQL.retries = 0;
         return GraphGQLResponse
     }
 }
 
-async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset) {
+async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy) {
     if (GraphQL.retries < GraphQL.maxretries) {
         GraphQL.retries++
         if (error instanceof Array) {
@@ -157,7 +157,7 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
             console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
         }
         await delay(GraphQL.retrytimeout)
-        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset);
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxy);
     } else {
         if (error.code === undefined) {
             if (error instanceof Array) {
