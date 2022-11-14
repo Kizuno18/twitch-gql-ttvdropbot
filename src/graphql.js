@@ -33,6 +33,8 @@ const GraphQL = {
         __proxy = proxy;
         let proxyString = (__proxy === '') ? null : __proxy
         
+
+        console.log('_SendQuery -> ' + __proxy)
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
         

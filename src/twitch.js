@@ -90,7 +90,7 @@ const Twitch = {
         }
     },
     async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, headers = {}, Integrity = false, proxy = '') {
-        console.log('_SendQuery -> ' + proxy)
+        
         return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, headers, Integrity, proxy);
     }
 };
