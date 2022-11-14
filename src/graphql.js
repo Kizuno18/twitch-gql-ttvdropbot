@@ -57,8 +57,23 @@ const GraphQL = {
             let integrity = ''
 
             //session + device + client
-            const ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
-
+            
+            let ProxyAgent = null;
+            if (proxyString !== null){
+                var parts = proxyString.split(':');
+                let ip = parts[0];
+                let port = parts[1];
+                let username = parts.length > 2 ? parts[2] : "";
+                let password = parts.length > 2 ? parts[3] : "";
+    
+                if (parts.length > 2){
+                    proxyString = `http://${username}:${password}@${ip}:${port}`
+                }
+                else {
+                    proxyString = `http://${ip}:${port}`
+                }
+                ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
+            }
             const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
             let cookies = response.headers.raw()["set-cookie"]
 
