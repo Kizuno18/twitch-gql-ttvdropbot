@@ -20,6 +20,7 @@ const Operation_Hashes = {
 };
 
 let __proxy = '';
+let __ProxyAgent = null;
 const GraphQL = {
     Endpoint: "https://gql.twitch.tv/gql",
     ClientID: null,
@@ -62,7 +63,6 @@ const GraphQL = {
 
             //session + device + client
             
-            let ProxyAgent = null;
             if (proxyString !== null){
                 var parts = proxyString.split(':');
                 let ip = parts[0];
@@ -76,11 +76,11 @@ const GraphQL = {
                 else {
                     proxyString = `http://${ip}:${port}`
                 }
-                ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
+                __ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
-            console.log('https://twitch.tv' + ProxyAgent)
+            console.log('https://twitch.tv' + __ProxyAgent)
             try {
-                const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
+                const response = await fetch('https://twitch.tv', {agent: __ProxyAgent});
                 let cookies = response.headers.raw()["set-cookie"]
     
                 cookies.forEach((cookie) => {
@@ -109,7 +109,7 @@ const GraphQL = {
 
             //integrity
 
-            console.log('https://gql.twitch.tv/integrity' + ProxyAgent)
+            console.log('https://gql.twitch.tv/integrity' + __ProxyAgent)
             try {
                 const result = await fetch('https://gql.twitch.tv/integrity', {
                     method: 'post',
@@ -144,9 +144,9 @@ const GraphQL = {
         let GraphGQLResponse = {}
         
         try {
-            console.log('GraphGQLRequest -> ' + ProxyAgent)
+            console.log('GraphGQLRequest -> ' + __ProxyAgent)
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
-                agent: ProxyAgent,
+                agent: __ProxyAgent,
                 method: 'post',
                 body: JSON.stringify(body),
                 headers: {
