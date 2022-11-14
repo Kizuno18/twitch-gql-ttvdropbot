@@ -19,6 +19,7 @@ const Operation_Hashes = {
     'ViewerDropsDashboard': 'e8b98b52bbd7ccd37d0b671ad0d47be5238caa5bea637d2a65776175b4a23a64'
 };
 
+let __proxy = '';
 const GraphQL = {
     Endpoint: "https://gql.twitch.tv/gql",
     ClientID: null,
@@ -29,7 +30,8 @@ const GraphQL = {
     SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers = {}, Integrity = false, proxy = '') => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
-        let proxyString = (proxy === '') ? null : proxy
+        __proxy = proxy;
+        let proxyString = (__proxy === '') ? null : __proxy
         
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
@@ -156,11 +158,13 @@ const GraphQL = {
             });
             GraphGQLResponse = await GraphGQLRequest.json();
         } catch (error) {
-            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy)
+            console.log(error)
+            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, __proxy)
         }
         
         if (GraphGQLResponse.errors || (GraphGQLResponse[0] && GraphGQLResponse[0].errors) || GraphGQLResponse.error) {
-            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, proxy)
+            console.log(GraphGQLResponse)
+            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, __proxy)
         }
         GraphQL.retries = 0;
         return GraphGQLResponse
