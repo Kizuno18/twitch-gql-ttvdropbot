@@ -1,0 +1,27 @@
+{
+  "name": "@r1soX/twitch-gql-ttvdropbot",
+  "version": "1.6.3",
+  "description": "Allows interaction with Twitch inner GQL, modified for TTVDropBot",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-match-pattern": "^1.3.0",
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "r1soX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r1soX/twitch-gql-ttvdropbot/issues"
+  },
+  "homepage": "https://github.com/r1soX/twitch-gql-ttvdropbot#readme"
+}

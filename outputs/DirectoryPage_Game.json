@@ -1,0 +1,2818 @@
+[
+    {
+        "data": {
+            "game": {
+                "id": "32507",
+                "name": "SMITE",
+                "displayName": "SMITE",
+                "streams": {
+                    "edges": [
+                        {
+                            "cursor": "eyJzIjoxNzU5LjY3ODYwODkyNTkzODMsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "44830239132",
+                                "title": "2x the worshippies, 2x the funsies ⟡ !rebel",
+                                "viewersCount": 1759,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_smitegame-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "31500812",
+                                    "login": "smitegame",
+                                    "displayName": "SmiteGame",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/94784297-9634-41c4-848c-a359e9dca7d8-profile_image-50x50.png",
+                                    "primaryColorHex": "FEBE26",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Esports",
+                                        "tagName": "Esports",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo4MzMuMTYyODMyMjc1NTM2NSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "40576876539",
+                                "title": "GM SOLO RANKED",
+                                "viewersCount": 833,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_solo0rtroll-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "66949711",
+                                    "login": "solo0rtroll",
+                                    "displayName": "Solo0rTroll",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/75344c03-8117-4f13-bac7-4f81c0ce4cc0-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0NzkuNTc0OTk2OTUxNjM1NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "39505879161",
+                                "title": "Its been awhile :D Mid Laner hits the qs !youtube !gems",
+                                "viewersCount": 479,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_venenu_-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "124019374",
+                                    "login": "venenu_",
+                                    "displayName": "Venenu_",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/5bbdefec-58b8-4594-9cfc-8237765cf441-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjozNTYuMTY0MjExMzQ2MTA3NiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44829797212",
+                                "title": "ranked on this sun day! | !snacks",
+                                "viewersCount": 356,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_pandacat-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "79846693",
+                                    "login": "pandacat",
+                                    "displayName": "PandaCat",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/e09bb627-9c98-47a9-83e3-371d5e3a7ea0-profile_image-50x50.png",
+                                    "primaryColorHex": "0013A3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoyMDQuOTU2MjE2MDM3MjYzMiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44826087628",
+                                "title": "Trying to be a full time streamer :o !team !request (Crosswords in q (NO GOOGLING :))",
+                                "viewersCount": 204,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_snoopy_man-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "38452215",
+                                    "login": "snoopy_man",
+                                    "displayName": "Snoopy_Man",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/snoopy_man-profile_image-35462f4bfbe69638-50x50.jpeg",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxNzkuNjU0Njc2MjQ2NjA5MjMsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45680395965",
+                                "title": "[DROPS ON] Campeonato de Conquista da !Line hoje! | !pix !pedido !social !coach",
+                                "viewersCount": 179,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xhitoman-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "59339538",
+                                    "login": "xhitoman",
+                                    "displayName": "Xhitoman",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/36867d77-fc05-43d6-a237-be2cb28b7a4c-profile_image-50x50.png",
+                                    "primaryColorHex": "FA2929",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "39ee8140-901a-4762-bfca-8260dea1310f",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Portuguese",
+                                        "tagName": "auto___lang_pt",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "e1a43486-eee5-4f36-9ee6-76e72af00180",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Ranked",
+                                        "tagName": "Ranked",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "988c8c1b-b991-4b66-9a6d-b36f60363f6d",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Brazil",
+                                        "tagName": "Brazil",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxMDEuNzI3NjgxNDY0OTE3ODgsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45679448445",
+                                "title": "haz tu tarea pofa l !drops l !discord l !sub6",
+                                "viewersCount": 101,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_nutellawins-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "436245776",
+                                    "login": "nutellawins",
+                                    "displayName": "Nutellawins",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/c0512594-cfab-4478-b2c6-09f295ae1d93-profile_image-50x50.png",
+                                    "primaryColorHex": "C48BE6",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Spanish",
+                                        "tagName": "auto___lang_es",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Competitive",
+                                        "tagName": "Competitive",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "54b544af-2d0e-4d17-a653-78e3f6fc1fc8",
+                                        "isLanguageTag": false,
+                                        "localizedName": "PC",
+                                        "tagName": "PC",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "38fe29d8-b8b9-446f-b2cb-47ef84098510",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Latino",
+                                        "tagName": "Latino",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "79713d37-6d2e-4953-b55b-8f47bb9caf72",
+                                        "isLanguageTag": false,
+                                        "localizedName": "USA",
+                                        "tagName": "USA",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "80af90df-e90c-48b5-94c7-bd33c0f8498f",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Peru",
+                                        "tagName": "Peru",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo5OC42Mzk4ODkxNzQ1MjI4LCJkIjpmYWxzZSwidCI6dHJ1ZX0=",
+                            "node": {
+                                "id": "45679153613",
+                                "title": "Depression Queues",
+                                "viewersCount": 98,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_barboosh-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "135663442",
+                                    "login": "barboosh",
+                                    "displayName": "Barboosh",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/019bacfc-25b5-471d-954d-abde0a31d375-profile_image-50x50.png",
+                                    "primaryColorHex": "0013A3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c1ea4496-4418-4a4f-bc30-083cfc6a616b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Depression",
+                                        "tagName": "Depression",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo4Ny45OTQzMTYxMjc4NDg0MiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45678312221",
+                                "title": "#1 GM Ranked Joust - Partner Push - Day 23 - !Discord ",
+                                "viewersCount": 87,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zcapollo-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "129431438",
+                                    "login": "zcapollo",
+                                    "displayName": "ZcApollo",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/b21ac1ed-4244-41ce-bc9a-6c2eb5600272-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo4MS4wNTI0NDEyNzE3MzI2NiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827782876",
+                                "title": "[DROPS] SMITE Grandmaster Duels | 710/750 | !Request !Sub !Apparel !Schedule",
+                                "viewersCount": 81,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_christdickson-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "60459752",
+                                    "login": "christdickson",
+                                    "displayName": "ChrisTDickson",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/682505cf-0e14-4765-9732-628b55eca1be-profile_image-50x50.png",
+                                    "primaryColorHex": "0013A3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo3Ny45Nzg4ODc5ODM4MjU3MywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44829454396",
+                                "title": "Loki 1-Shots Putin, pls nerf",
+                                "viewersCount": 77,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_professorloki-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "127328082",
+                                    "login": "professorloki",
+                                    "displayName": "ProfessorLoki",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/dd18043d-f286-4a8c-98fb-5cebcc9c342f-profile_image-50x50.png",
+                                    "primaryColorHex": "8205B3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo3Ni4zODU1NTE0NDk2OTk2OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44828197484",
+                                "title": "Hey ^,..,^  I'm back! You doing well??...",
+                                "viewersCount": 76,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yanarossy-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "118848288",
+                                    "login": "yanarossy",
+                                    "displayName": "yanarossy",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/6bc9b007-6938-4a91-ad7b-e32d3b3e3050-profile_image-50x50.jpg",
+                                    "primaryColorHex": "E01F99",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1NC42NzQ2MDUyNDc5NTQ1MSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45676691901",
+                                "title": "[+18][MAIN SUPP] -🐊JA?CA?RÉ?🐊|A SEASON COMEÇOU PELA QUINTA VEZ PRA MIM| Manda Oi se for educado... !piru !sr !pix",
+                                "viewersCount": 54,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mmessias2-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "45779457",
+                                    "login": "mmessias2",
+                                    "displayName": "MMessias2",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0c68967f-ba53-4fc9-8637-f76e9ba73433-profile_image-50x50.png",
+                                    "primaryColorHex": "85FF47",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "39ee8140-901a-4762-bfca-8260dea1310f",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Portuguese",
+                                        "tagName": "auto___lang_pt",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1MS4xODc3NzA4NjQ5NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "39506103353",
+                                "title": "Rainy sunday morning rank",
+                                "viewersCount": 51,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_txicbuttercup-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "696019246",
+                                    "login": "txicbuttercup",
+                                    "displayName": "txicbuttercup",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/ba258e08-e828-4877-9ffe-642a5ce82ce2-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjozMy42MTUxMzI3ODA4ODg4NSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44829623948",
+                                "title": "ranked shark ",
+                                "viewersCount": 33,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_cowsi-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "421055945",
+                                    "login": "cowsi",
+                                    "displayName": "cowsi",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/12704340-132a-479e-b66b-f89fa84f8f7c-profile_image-50x50.png",
+                                    "primaryColorHex": "BD0078",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "315618b7-c996-443d-a993-e8d5cdb5d1bd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Canada",
+                                        "tagName": "Canada",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoyOS4yMzc1MTcyMzU4NTU5MjUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45679349117",
+                                "title": "Is This The Krusty Krab | #SmiteGemGiveaway | #ViewerGames | #YearOfTheVillian",
+                                "viewersCount": 29,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_j2ruto-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "150197211",
+                                    "login": "j2ruto",
+                                    "displayName": "J2Ruto",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/21c2af09-083d-4150-a8b0-cb4b64bd07d2-profile_image-50x50.png",
+                                    "primaryColorHex": "FA2929",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "4e6a9848-6f70-4172-b233-3df36e2e3120",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Black",
+                                        "tagName": "Black",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6606e54c-f92d-40f6-8257-74977889ccdd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anime",
+                                        "tagName": "Anime",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "481ba9ce-8101-4a42-b026-b6aa200fdd8c",
+                                        "isLanguageTag": false,
+                                        "localizedName": "African American",
+                                        "tagName": "African American",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoyNi44OTEyNTE3OTMzMzg3NDMsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45679442989",
+                                "title": "Deaf Player - Insane Player GM-MASTER  | Drops Enabled! | SR ON! | 0 sound gameplay | !discord | ",
+                                "viewersCount": 26,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xgabu_-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "134245585",
+                                    "login": "xgabu_",
+                                    "displayName": "xGabu_",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/350942a2-9c00-4fe4-967e-10e724dc30e3-profile_image-50x50.png",
+                                    "primaryColorHex": "8205B3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoyNC4zMjU2ODkyMDEzMTkwNSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44829649292",
+                                "title": "GrandMasters jungle - sup",
+                                "viewersCount": 24,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_glaivusx-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "93875151",
+                                    "login": "glaivusx",
+                                    "displayName": "Glaivusx",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/glaivusx-profile_image-39596a794f2ed4aa-50x50.jpeg",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoyMy4wODQwOTk4MDEyNzY4MzUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "44829835884",
+                                "title": "Rankeds con SUBS? ",
+                                "viewersCount": 23,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bbooy-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "76352954",
+                                    "login": "bbooy",
+                                    "displayName": "BBooy",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/56740592-8ee7-4715-a283-d1cef59feebb-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Spanish",
+                                        "tagName": "auto___lang_es",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoyMi41NzA5NTUzNTEzNjA4MywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827387548",
+                                "title": "Masters Conquest ft. Lemon",
+                                "viewersCount": 22,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_evilraiu-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "54567876",
+                                    "login": "evilraiu",
+                                    "displayName": "EvilRaiu",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/9c35ef68-b8cf-48bb-b117-c66e78c55226-profile_image-50x50.png",
+                                    "primaryColorHex": "FF4747",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c1ea4496-4418-4a4f-bc30-083cfc6a616b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Depression",
+                                        "tagName": "Depression",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "d47ba636-e313-4887-ad18-237ef81a5161",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Anxiety",
+                                        "tagName": "Anxiety",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Playing with Viewers",
+                                        "tagName": "Playing with Viewers",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxNi40NDIxNTM1NjM1OTMwODQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "44827751436",
+                                "title": "ЗАНИМАЙТЕСЬ ЛЮБОВЬЮ, А НЕ ВОЙНОЙ!",
+                                "viewersCount": 16,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_m1sstoxic-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "731665703",
+                                    "login": "m1sstoxic",
+                                    "displayName": "m1sstoxic",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/22d64a81-ed96-46c6-8b68-8412d90d8dc6-profile_image-50x50.png",
+                                    "primaryColorHex": "2FB240",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Russian",
+                                        "tagName": "auto___lang_ru",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxNi40MTU3NzEwNTY1MjkwOCwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45679267149",
+                                "title": "GM Duel | Meele Main | EU/NA Queues | \n",
+                                "viewersCount": 16,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mantos_95-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "85569150",
+                                    "login": "mantos_95",
+                                    "displayName": "Mantos_95",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4f5d14c0ec58c2fe-profile_image-50x50.jpeg",
+                                    "primaryColorHex": "0606A1",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxNi4wMzU0Njc3Njc2MzA1OCwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827232588",
+                                "title": "Smite Baby!! Ranked joust ",
+                                "viewersCount": 16,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bocasfinest-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "160348676",
+                                    "login": "bocasfinest",
+                                    "displayName": "BocasFinest",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/cad9b539-414b-4c79-a4d3-47501953bdde-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxNS43MzAwMjYyNzIyOTU1MTUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "39505774073",
+                                "title": "2k mmr, wait i have hair? !discord",
+                                "viewersCount": 15,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eljaffoguzman-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "69706087",
+                                    "login": "eljaffoguzman",
+                                    "displayName": "ElJaffoGuzman",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/5e17daac-21c8-4465-a722-6971056561ef-profile_image-50x50.png",
+                                    "primaryColorHex": "00C7AC",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "8bbdb07d-df18-4f82-a928-04a9003e9a7e",
+                                        "isLanguageTag": false,
+                                        "localizedName": "LGBTQIA+",
+                                        "tagName": "LGBTQIA+",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "938fcad2-4d77-4a06-9e49-b75b0879b645",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Metal Music",
+                                        "tagName": "Metal Music",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "57e81aba-c8ae-48aa-8fba-7a7eb9d3dd23",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Alternative Music",
+                                        "tagName": "Alternative Music",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "8bc6daab-8c15-4eb9-b533-a6417a213a93",
+                                        "isLanguageTag": false,
+                                        "localizedName": "England",
+                                        "tagName": "England",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6131f3f8-67aa-4c2d-b9c3-daa8f95a850e",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Ally",
+                                        "tagName": "Ally",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxMy44MjUwMTA5OTY5Njk2NTIsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45677905549",
+                                "title": "drops | join me! | MUSCLE GOTH | Body Building Girl | 420 GOAL! ",
+                                "viewersCount": 13,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_synapse_einherjar-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "39610846",
+                                    "login": "synapse_einherjar",
+                                    "displayName": "Synapse_Einherjar",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/synapse_einherjar-profile_image-983f14283056205f-50x50.png",
+                                    "primaryColorHex": "0E483F",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "8bbdb07d-df18-4f82-a928-04a9003e9a7e",
+                                        "isLanguageTag": false,
+                                        "localizedName": "LGBTQIA+",
+                                        "tagName": "LGBTQIA+",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "afc8211a-8eee-48b8-9e18-212f22f657db",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Chatty",
+                                        "tagName": "Chatty",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Playing with Viewers",
+                                        "tagName": "Playing with Viewers",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "9e1c4d59-fb88-4b42-99ce-b2776358c547",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Furry",
+                                        "tagName": "Furry",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "07a1b526-3725-4ba5-8c53-efaad4941fb9",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Strength Training",
+                                        "tagName": "Strength Training",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxMy4yNjE2MjY3MTA5NDMzMjUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45679235549",
+                                "title": "#nowar",
+                                "viewersCount": 13,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anvi_fox-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "179434378",
+                                    "login": "anvi_fox",
+                                    "displayName": "Anvi_Fox",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/bc3b0490-fb04-4146-89b3-deaa315c767a-profile_image-50x50.png",
+                                    "primaryColorHex": "FF8100",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Russian",
+                                        "tagName": "auto___lang_ru",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "d6de2e71-689a-4c47-ad61-6ec6182f9491",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Glitch Hunting",
+                                        "tagName": "Glitch Hunting",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "b7453475-5504-44aa-9b1c-6b4c885aeaf1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Blind",
+                                        "tagName": "Blind",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c0bfabb1-0a43-41a8-8f6c-c7c434ca18f9",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Woodwork",
+                                        "tagName": "Woodwork",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "707bc174-a7e6-4cba-bb4b-40c6adcca6e7",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Dyslexia",
+                                        "tagName": "Dyslexia",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "7f653d60-941d-46ca-8592-773d991431c8",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Chronic Illness",
+                                        "tagName": "Chronic Illness",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxMi42ODU0OTYxNTYyNjM1MTMsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "44830296700",
+                                "title": "Cozy Sunday SMITE viewer games uwu !Join !Socials ",
+                                "viewersCount": 12,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_theecosmicqueen-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "546719463",
+                                    "login": "theecosmicqueen",
+                                    "displayName": "TheeCosmicQueen",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/4549b541-5258-44b7-85b2-a720f1050b2d-profile_image-50x50.png",
+                                    "primaryColorHex": "FAB3FF",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "3575df89-da01-4fc1-939c-b5465093ed04",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Safe Space",
+                                        "tagName": "Safe Space",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "396aee63-bb8a-43c4-95da-98fca08e144b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Standup Comedy",
+                                        "tagName": "Standup Comedy",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "adc4a830-07f5-457b-95e5-5ab6cc1f9af3",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Cozy",
+                                        "tagName": "Cozy",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "ff56eeeb-99ed-4a60-93fc-0b3f05d8661e",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Multiplayer",
+                                        "tagName": "Multiplayer",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2ffd5c3e-b927-4749-ba53-79d3b626b2da",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Cosplay",
+                                        "tagName": "Cosplay",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxMS45ODAzNTg0Mzk3MjU5MDgsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "44828959692",
+                                "title": "smite casuals und vllt ranked",
+                                "viewersCount": 11,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hanulaa-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "168598578",
+                                    "login": "hanulaa",
+                                    "displayName": "hanulaa",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/53ce9c00-b5fb-45a3-a622-3cc6ef9d8aed-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                                        "isLanguageTag": true,
+                                        "localizedName": "German",
+                                        "tagName": "auto___lang_de",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjoxMC4xMjMxNzEzMzMyNTIyNTksImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "44829245660",
+                                "title": "Sunday Smite POG 🐱✨ <3 !play !socials !discord !instagram !dono",
+                                "viewersCount": 10,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_angelacatwoman-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "439983065",
+                                    "login": "angelacatwoman",
+                                    "displayName": "Angelacatwoman",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/e1d7aeaf-cf7f-47e6-a728-f9be8a0fab1a-profile_image-50x50.png",
+                                    "primaryColorHex": "000000",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "589c4c39-a3cc-41fa-b70c-bf0b735fa21f",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Mental Health",
+                                        "tagName": "Mental Health",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "8bbdb07d-df18-4f82-a928-04a9003e9a7e",
+                                        "isLanguageTag": false,
+                                        "localizedName": "LGBTQIA+",
+                                        "tagName": "LGBTQIA+",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6b97872d-3156-45ce-bd1a-807b33147cbd",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Netherlands",
+                                        "tagName": "Netherlands",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Playing with Viewers",
+                                        "tagName": "Playing with Viewers",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "cc5eabb5-3f2c-41b5-b9b5-399a9b4d40ea",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Arena",
+                                        "tagName": "Arena",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo5Ljk5MzY4MjgyNzU2NjIxLCJkIjpmYWxzZSwidCI6dHJ1ZX0=",
+                            "node": {
+                                "id": "39506382553",
+                                "title": "MY HAIR KEEPS GETTING IN MY EYES! \n¬DROPS¬\n",
+                                "viewersCount": 9,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_peterverz-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "597733553",
+                                    "login": "peterverz",
+                                    "displayName": "Peterverz",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/896ee4ab-4a2d-4c05-b58c-91aeb09064f3-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo5LjczOTc2MDcxNDUyMjUwNywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827517932",
+                                "title": "сложна. Без лузов ✓ ",
+                                "viewersCount": 9,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_anisan-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "143889269",
+                                    "login": "anisan",
+                                    "displayName": "ANISAN",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/a1ae79a0-3686-436a-a004-b4f67269f4b1-profile_image-50x50.png",
+                                    "primaryColorHex": "CCFF00",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Russian",
+                                        "tagName": "auto___lang_ru",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo5LjA4Mjc4NjM0NzAzNzgzLCJkIjpmYWxzZSwidCI6dHJ1ZX0=",
+                            "node": {
+                                "id": "45680372845",
+                                "title": "The small streamer - before da ring",
+                                "viewersCount": 9,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_uchihatrav-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "82350433",
+                                    "login": "uchihatrav",
+                                    "displayName": "Uchihatrav",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/6b16fbd9-5a26-4a73-8803-e1fb8ee9d960-profile_image-50x50.png",
+                                    "primaryColorHex": "3E5E45",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo5LjA0MDQ3NjU3OTQ2MTM1NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45680520653",
+                                "title": "SCL Joust Tournament! | SMITE | Come Chat! | !GA !socials !discord",
+                                "viewersCount": 9,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_xeleyond-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "56416693",
+                                    "login": "xeleyond",
+                                    "displayName": "xEleyond",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/d77a3bf1-709e-4bbf-a7fd-3787e60d7148-profile_image-50x50.png",
+                                    "primaryColorHex": "FFF700",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo4LjczNDE5ODYxODYxODM1MiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "39506074425",
+                                "title": "Rare Khastik Stream Sighting",
+                                "viewersCount": 8,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_khastik-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "41824180",
+                                    "login": "khastik",
+                                    "displayName": "Khastik",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/fc2d4cf8-b004-4335-93aa-fbfdb66f9417-profile_image-50x50.png",
+                                    "primaryColorHex": "8205B3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo3LjIyNzYwMjQ3NTM3NTc3NiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44830114220",
+                                "title": "[FR] Smite France : avec Emil Rios, new god OP?",
+                                "viewersCount": 7,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_smitefrance_tv-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "41312413",
+                                    "login": "smitefrance_tv",
+                                    "displayName": "SmiteFrance_Tv",
+                                    "roles": {
+                                        "isPartner": true,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/smitefrance_tv-profile_image-5337f22319132403-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                                        "isLanguageTag": true,
+                                        "localizedName": "French",
+                                        "tagName": "auto___lang_fr",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo3LjEzODQ0ODQ5MzgyMDI1MzUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45661911197",
+                                "title": "SMITE tourney action and more! | !affiliate !cam ",
+                                "viewersCount": 7,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_willowmmodel-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "228912712",
+                                    "login": "willowmmodel",
+                                    "displayName": "WillowMmodel",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/6da4ee76-3acb-41a4-b7a9-c36e0a916745-profile_image-50x50.png",
+                                    "primaryColorHex": "FA1ED2",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo2Ljk5MDg2Nzc3MzUzNDQ2NiwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45678459645",
+                                "title": "Salve, sangue bom! Aquele smitin nosso de cada dia vai rolar? Maclaro!",
+                                "viewersCount": 6,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_tchizao-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "90000821",
+                                    "login": "tchizao",
+                                    "displayName": "tchiZAO",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/70d19fc5-97ca-43fe-8193-45a3a1923cba-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "39ee8140-901a-4762-bfca-8260dea1310f",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Portuguese",
+                                        "tagName": "auto___lang_pt",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjE1NjEwMjk2MDQ5OTk1OCwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "39506530425",
+                                "title": "Rankeds con 😳10 (El mejor solo de) \n",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lightrektz-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "230709200",
+                                    "login": "lightrektz",
+                                    "displayName": "LightRektz",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/user-default-pictures-uv/ce57700a-def9-11e9-842d-784f43822e80-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Spanish",
+                                        "tagName": "auto___lang_es",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjExMTI0OTE0MjM1MjMxNjUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45679949245",
+                                "title": "ITS GUNNA BE WW3 and im here playing video games RANKED SMITE trying to get to gold  COME SHOW LOVE",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_hefty78o-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "654493633",
+                                    "login": "hefty78o",
+                                    "displayName": "hefty78o",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/aa047108-52a8-4d2c-b5c8-8941300dc682-profile_image-50x50.png",
+                                    "primaryColorHex": "00F526",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjY2MzM0NDA5OTgwNjQ2OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "39506216345",
+                                "title": "Black Dragons - Supp / Rankeds -  Season 9 / El mañanero ",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_remiggez98-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "416738509",
+                                    "login": "remiggez98",
+                                    "displayName": "remiggez98",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/776029e5-9541-4d4d-b031-4b137d993acc-profile_image-50x50.png",
+                                    "primaryColorHex": null,
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Spanish",
+                                        "tagName": "auto___lang_es",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjU4OTk3MDk2ODgwMTA1NTUsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                            "node": {
+                                "id": "45679794557",
+                                "title": "SMITE TIME!!!! #OKG i need 16 more followers!! :/ !join !discord",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_outkastmd-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "619780376",
+                                    "login": "outkastmd",
+                                    "displayName": "OutKastMD",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/f12c903a-29d7-4c98-993b-f1996a3e1b29-profile_image-50x50.png",
+                                    "primaryColorHex": "C4680E",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Playing with Viewers",
+                                        "tagName": "Playing with Viewers",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjQ3MTY5ODUwNzc3NjQxNCwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44830192428",
+                                "title": "[NA] Diamond duels, let's hit masters | !request",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_papawheelie-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "137248800",
+                                    "login": "papawheelie",
+                                    "displayName": "PapaWheelie",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/e738d68a-f540-43b6-9d83-7d02d356e3f6-profile_image-50x50.png",
+                                    "primaryColorHex": "0066FF",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "8486f56b-8677-44f7-8004-000295391524",
+                                        "isLanguageTag": false,
+                                        "localizedName": "PvP",
+                                        "tagName": "PvP",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjY4Nzc2NjE5NjgzMjAwNywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827587996",
+                                "title": "Smite SZN 9 Ranked",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_wildcatsm0ntana-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "125448188",
+                                    "login": "wildcatsm0ntana",
+                                    "displayName": "WildcatsM0ntana",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/1813d860-a3e6-4b05-aa26-2f0930be7d1c-profile_image-50x50.png",
+                                    "primaryColorHex": "FA2929",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo1LjkwNDY4NjYzMjA3ODMwMSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45680037229",
+                                "title": "Noob ranked",
+                                "viewersCount": 5,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_emfeza-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "89975385",
+                                    "login": "emfeza",
+                                    "displayName": "Emfeza",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/02214be4-72d1-4578-947d-0a30b47f45fa-profile_image-50x50.jpg",
+                                    "primaryColorHex": "FFBF00",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "f08d5873-f0c7-4912-94ba-a41933b4c141",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Turkish",
+                                        "tagName": "auto___lang_tr",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0LjczNDA1OTcxNjI4MDA5OCwiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "40577363723",
+                                "title": "DROPS ON: É O FRONTAS ?!  (jogar até o setup trollar)  2 dia(s) sem tiltar. !playlist (Spotify)",
+                                "viewersCount": 4,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_onarakuu-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "403865777",
+                                    "login": "onarakuu",
+                                    "displayName": "oNarakuu",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/0ec18c57-5cf9-4578-8324-b00ae544f991-profile_image-50x50.png",
+                                    "primaryColorHex": "2969FA",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "39ee8140-901a-4762-bfca-8260dea1310f",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Portuguese",
+                                        "tagName": "auto___lang_pt",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0LjY4NTgwODExMjMwNjAxLCJkIjpmYWxzZSwidCI6dHJ1ZX0=",
+                            "node": {
+                                "id": "45679275053",
+                                "title": "Mandangón\n",
+                                "viewersCount": 4,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_eye146-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "73488129",
+                                    "login": "eye146",
+                                    "displayName": "eYe146",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/1e7e9d6b-527e-401a-b44e-6959af002ca6-profile_image-50x50.png",
+                                    "primaryColorHex": "83FA00",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Spanish",
+                                        "tagName": "auto___lang_es",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0LjY2NDgzNzQ3NTc4ODA0MywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44828800652",
+                                "title": "smite squad !saveocean !glytch !discord",
+                                "viewersCount": 4,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_afroninjzs-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "140421628",
+                                    "login": "afroninjzs",
+                                    "displayName": "Afroninjzs",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/1dc81ee3-60af-4e37-8aef-f6ecee79241d-profile_image-50x50.png",
+                                    "primaryColorHex": "5784E3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "2193eee1-b8f0-43bd-a6d9-dba8a67528a1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADHD",
+                                        "tagName": "ADHD",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "707bc174-a7e6-4cba-bb4b-40c6adcca6e7",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Dyslexia",
+                                        "tagName": "Dyslexia",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "e1a43486-eee5-4f36-9ee6-76e72af00180",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Ranked",
+                                        "tagName": "Ranked",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "1eba3cfe-51cc-460a-8259-bc8bb987f904",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Competitive",
+                                        "tagName": "Competitive",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "326bf42d-75ab-4701-9862-faf0c6e24fc8",
+                                        "isLanguageTag": false,
+                                        "localizedName": "ADD",
+                                        "tagName": "ADD",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0LjMzNjk3MDM3NTY5NjQyMywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "45679646141",
+                                "title": "viewergames to end the week| !discord !sounds !viewerpoints !join",
+                                "viewersCount": 4,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_curiouspaul-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "112447113",
+                                    "login": "curiouspaul",
+                                    "displayName": "CuriousPaul",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0ffb8c8-1896-4b06-9395-42c699f46d5a-profile_image-50x50.jpg",
+                                    "primaryColorHex": "725F27",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "67259b26-ff83-444e-9d3c-faab390df16f",
+                                        "isLanguageTag": false,
+                                        "localizedName": "AMA",
+                                        "tagName": "AMA",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "ac763b17-7bea-4632-9eb4-d106689ff409",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Playing with Viewers",
+                                        "tagName": "Playing with Viewers",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "cc8d5abb-39c9-4942-a1ee-e1558512119e",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Casual Playthrough",
+                                        "tagName": "Casual Playthrough",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0LjMxMjAwOTI2MTk5MzY5MywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827922572",
+                                "title": "Парни с железных островов. smite рейтинг",
+                                "viewersCount": 4,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_zaratos_aka_zhoporval-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "489585152",
+                                    "login": "zaratos_aka_zhoporval",
+                                    "displayName": "zaratos_aka_zhoporval",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/9647b41e-78b7-45ad-9692-19a4d65172de-profile_image-50x50.png",
+                                    "primaryColorHex": "311414",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                        "isLanguageTag": true,
+                                        "localizedName": "Russian",
+                                        "tagName": "auto___lang_ru",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c0bfabb1-0a43-41a8-8f6c-c7c434ca18f9",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Woodwork",
+                                        "tagName": "Woodwork",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "621fb5bf-5498-4d8f-b4ac-db4d40d401bf",
+                                        "isLanguageTag": false,
+                                        "localizedName": "1 Credit Clear",
+                                        "tagName": "1 Credit Clear",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "f27da80e-b26a-447b-bcfa-b20ac049d333",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Rock",
+                                        "tagName": "Rock",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "b7453475-5504-44aa-9b1c-6b4c885aeaf1",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Blind",
+                                        "tagName": "Blind",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "7f653d60-941d-46ca-8592-773d991431c8",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Chronic Illness",
+                                        "tagName": "Chronic Illness",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        },
+                        {
+                            "cursor": "eyJzIjo0LjIwMjA3MzY2MjY1MTgzNywiZCI6ZmFsc2UsInQiOnRydWV9",
+                            "node": {
+                                "id": "44827917596",
+                                "title": "Diamond -> Masters ? Lets see how this goes LOL l Almost Affiliate l Follower Goal: (108/125)",
+                                "viewersCount": 4,
+                                "previewImageURL": "https://static-cdn.jtvnw.net/previews-ttv/live_user_toilet_payper-440x248.jpg",
+                                "broadcaster": {
+                                    "id": "23573844",
+                                    "login": "toilet_payper",
+                                    "displayName": "toilet_payper",
+                                    "roles": {
+                                        "isPartner": false,
+                                        "__typename": "UserRoles"
+                                    },
+                                    "profileImageURL": "https://static-cdn.jtvnw.net/jtv_user_pictures/02b12c2f-226c-4d20-88f6-d5ce44c4f88b-profile_image-50x50.png",
+                                    "primaryColorHex": "0013A3",
+                                    "__typename": "User"
+                                },
+                                "tags": [
+                                    {
+                                        "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                        "isLanguageTag": true,
+                                        "localizedName": "English",
+                                        "tagName": "auto___lang_en",
+                                        "__typename": "Tag"
+                                    },
+                                    {
+                                        "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                        "isLanguageTag": false,
+                                        "localizedName": "Drops Enabled",
+                                        "tagName": "auto___drops_drops",
+                                        "__typename": "Tag"
+                                    }
+                                ],
+                                "type": "live",
+                                "game": {
+                                    "id": "32507",
+                                    "boxArtURL": "https://static-cdn.jtvnw.net/ttv-boxart/32507-40x56.jpg",
+                                    "name": "SMITE",
+                                    "displayName": "SMITE",
+                                    "__typename": "Game"
+                                },
+                                "__typename": "Stream"
+                            },
+                            "trackingID": null,
+                            "__typename": "StreamEdge"
+                        }
+                    ],
+                    "pageInfo": {
+                        "hasNextPage": true,
+                        "__typename": "PageInfo"
+                    },
+                    "__typename": "StreamConnection"
+                },
+                "__typename": "Game"
+            }
+        },
+        "extensions": {
+            "durationMilliseconds": 163,
+            "operationName": "DirectoryPage_Game",
+            "requestID": "01FWYA9K32AN2ZHR718JYK7JFK"
+        }
+    }
+]

@@ -1,0 +1,238 @@
+{
+    "data": {
+        "streams": {
+            "edges": [
+                {
+                    "cursor": "eyJzIjo3MzU4My40NDQxNTc1MTcxNSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45631492797",
+                        "title": "hablamos y vemos cosassssssss",
+                        "viewersCount": 73583,
+                        "language": "ES",
+                        "broadcaster": {
+                            "displayName": "auronplay"
+                        },
+                        "tags": [
+                            {
+                                "id": "d4bb9c58-2141-4881-bcdc-3fe0505457d1",
+                                "localizedName": "Spanish"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo2MjkxMi40OTg4NTkyNTc1NTQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "45630840493",
+                        "title": "[DROPS ENABLED] --LOST ARK TIER 2 ENDGAME--SOLOING ALL CONTENT--WOW 9.2 IMPRESSIONS--ELDEN RING TOMORROW ",
+                        "viewersCount": 62912,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "Asmongold"
+                        },
+                        "tags": [
+                            {
+                                "id": "c2542d6d-cd10-4532-919b-3d19f30a768b",
+                                "localizedName": "Drops Enabled"
+                            },
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "Lost Ark"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo1NzcxNi43Mjk2MTYyNTIxNzQsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "40564580379",
+                        "title": "Moin",
+                        "viewersCount": 57716,
+                        "language": "DE",
+                        "broadcaster": {
+                            "displayName": "MontanaBlack88"
+                        },
+                        "tags": [
+                            {
+                                "id": "9166ad14-41f1-4b04-a3b8-c8eb838c6be6",
+                                "localizedName": "German"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjo0Njk5Ni40MDU2Mjk1NDg1NywiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "44789117532",
+                        "title": "LFL Spring 2022 - OPL vs SLY - W7D1",
+                        "viewersCount": 44706,
+                        "language": "FR",
+                        "broadcaster": {
+                            "displayName": "otplol_"
+                        },
+                        "tags": [
+                            {
+                                "id": "6f655045-9989-4ef7-8f85-1edcec42d648",
+                                "localizedName": "French"
+                            },
+                            {
+                                "id": "36a89a80-4fcd-4b74-b3d2-2c6fd9b30c95",
+                                "localizedName": "Esports"
+                            }
+                        ],
+                        "game": {
+                            "name": "League of Legends"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjozMzU5My41MjU4MzAwMDg0NDYsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "44789619884",
+                        "title": "НА СЦЕНЕ ИВАН",
+                        "viewersCount": 33593,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "bratishkinoff"
+                        },
+                        "tags": [
+                            {
+                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                "localizedName": "Russian"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMzMyMS43MzE4OTg0NjcyMjcsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "45631195421",
+                        "title": "ダイヤ行くって言ってんだろカス",
+                        "viewersCount": 23321,
+                        "language": "JA",
+                        "broadcaster": {
+                            "displayName": "加藤純一です"
+                        },
+                        "tags": [
+                            {
+                                "id": "dc179e62-215f-4785-bbc5-385ef8f1285b",
+                                "localizedName": "Japan"
+                            },
+                            {
+                                "id": "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d",
+                                "localizedName": "Japanese"
+                            }
+                        ],
+                        "game": {
+                            "name": "Apex Legends"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDk3Ny41OTY4NDY0NTE4OSwiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45631345597",
+                        "title": "DA CHAMPIONZZZZZ  | @Castro1021 ",
+                        "viewersCount": 20977,
+                        "language": "EN",
+                        "broadcaster": {
+                            "displayName": "Castro_1021"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ea6bca4-4712-4ab9-a906-e3336a9d8039",
+                                "localizedName": "English"
+                            }
+                        ],
+                        "game": {
+                            "name": "FIFA 22"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDY3NS43NjQ1MjU2MDk5NjgsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "45631914045",
+                        "title": "Бои на голых кулаках ",
+                        "viewersCount": 20675,
+                        "language": "RU",
+                        "broadcaster": {
+                            "displayName": "buster"
+                        },
+                        "tags": [
+                            {
+                                "id": "0569b171-2a2b-476e-a596-5bdfb45a1327",
+                                "localizedName": "Russian"
+                            }
+                        ],
+                        "game": {
+                            "name": "Sports"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDM3NS4xMDgxMDEwMTg3MywiZCI6ZmFsc2UsInQiOnRydWV9",
+                    "node": {
+                        "id": "45630400141",
+                        "title": "ごりぺ",
+                        "viewersCount": 20375,
+                        "language": "JA",
+                        "broadcaster": {
+                            "displayName": "fps_shaka"
+                        },
+                        "tags": [
+                            {
+                                "id": "6ba1d230-e52f-4d81-b1e0-41f25a8a9f5d",
+                                "localizedName": "Japanese"
+                            },
+                            {
+                                "id": "eaba0ad7-c4e1-4878-b37f-01308dbb65c8",
+                                "localizedName": "No Spoilers"
+                            }
+                        ],
+                        "game": {
+                            "name": "Just Chatting"
+                        }
+                    }
+                },
+                {
+                    "cursor": "eyJzIjoyMDM0MS43OTUxMzkwNDI0NDIsImQiOmZhbHNlLCJ0Ijp0cnVlfQ==",
+                    "node": {
+                        "id": "40564152027",
+                        "title": "ตู้ โอคอนเนอร์ SS1 ตัวแทนแห่งดวงจันทร์ จะลงทัณฑ์แกเอง Omnuay",
+                        "viewersCount": 20341,
+                        "language": "TH",
+                        "broadcaster": {
+                            "displayName": "RebirthzTV"
+                        },
+                        "tags": [
+                            {
+                                "id": "f19c7524-c18d-41af-9f39-034c8d0b0fee",
+                                "localizedName": "Thai"
+                            }
+                        ],
+                        "game": {
+                            "name": "Grand Theft Auto V"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "durationMilliseconds": 57,
+        "requestID": "01FWKTZS6R5FFZ7A9MYTF7BH6V"
+    }
+}
