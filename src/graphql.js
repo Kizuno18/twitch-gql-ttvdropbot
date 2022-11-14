@@ -97,8 +97,8 @@ const GraphQL = {
 
             console.log('https://gql.twitch.tv/integrity' + ProxyAgent)
             const result = await fetch('https://gql.twitch.tv/integrity', {
-                agent: ProxyAgent,
                 method: 'post',
+                agent: ProxyAgent,
                 body: JSON.stringify({}),
                 headers: {
                     'Content-Type': 'application/json',
