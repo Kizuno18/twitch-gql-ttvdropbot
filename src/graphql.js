@@ -75,18 +75,26 @@ const GraphQL = {
                 ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
             console.log('https://twitch.tv' + ProxyAgent)
-            const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
-            let cookies = response.headers.raw()["set-cookie"]
+            try {
+                const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
+                let cookies = response.headers.raw()["set-cookie"]
+    
+                cookies.forEach((cookie) => {
+                    if (cookie.startsWith('server_session_id')) {
+                        let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
+                        session = value[0]
+                    } else if (cookie.startsWith('unique_id') && !cookie.startsWith('unique_id_durable')) {
+                        let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
+                        deviceid = value[0]
+                    }
+                })
 
-            cookies.forEach((cookie) => {
-                if (cookie.startsWith('server_session_id')) {
-                    let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
-                    session = value[0]
-                } else if (cookie.startsWith('unique_id') && !cookie.startsWith('unique_id_durable')) {
-                    let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
-                    deviceid = value[0]
-                }
-            })
+                console.log('ok');
+            }
+            catch (error) {
+                console.log(error)
+            }
+            
 
             let htmlReg = new RegExp('twilightBuildID="([-a-z0-9]+)"')
             let rawdata = await response.text()
