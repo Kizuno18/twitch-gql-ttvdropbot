@@ -10,15 +10,15 @@ const Twitch = {
     async SetRetryAmount(amount) {
         GraphQL.maxretries = amount
     },
-    async GetUser(login, variables = {}) {
+    async GetUser(login, variables = {}, proxy = '') {
         variables = {...variables, login};
-        return await GraphQL.SendQuery("GET_USER", variables, "", "", false, {}, false);
+        return await GraphQL.SendQuery("GET_USER", variables, "", "", false, {}, false, proxy);
     },
-    async GetTopStreams(amount = 25, variables = {}) {
+    async GetTopStreams(amount = 25, variables = {}, proxy = '') {
         variables = {after: "", ...variables, amount};
-        return await GraphQL.SendQuery("GET_TOP_STREAMS", variables, "", "", false, {}, false);
+        return await GraphQL.SendQuery("GET_TOP_STREAMS", variables, "", "", false, {}, false, proxy);
     },
-    async GetVideos(login, variables = {}) {
+    async GetVideos(login, variables = {}, proxy = '') {
         let opts = {
             broadcastType: "ARCHIVE",
             channelOwnerLogin: login,
@@ -26,9 +26,9 @@ const Twitch = {
             videoSort: "TIME",
             ...variables
         }
-        return await GraphQL.SendQuery("FilterableVideoTower_Videos", opts, '', '', true, {}, false);
+        return await GraphQL.SendQuery("FilterableVideoTower_Videos", opts, '', '', true, {}, false, proxy);
     },
-    async GetPlaybackAccessToken(vodID, variables = {}) {
+    async GetPlaybackAccessToken(vodID, variables = {}, proxy = '') {
         let opts = {
             isLive: false,
             isVod: true,
@@ -37,51 +37,51 @@ const Twitch = {
             vodID: vodID,
             ...variables
         };
-        return await GraphQL.SendQuery("PlaybackAccessToken", opts, '', '', true, {}, false);
+        return await GraphQL.SendQuery("PlaybackAccessToken", opts, '', '', true, {}, false, proxy);
     },
-    async GetVideoMoments(vodID, variables = {}) {
+    async GetVideoMoments(vodID, variables = {}, proxy = '') {
         let opts = {
             videoId: vodID,
             ...variables
         };
-        return await GraphQL.SendQuery("VideoPreviewCard__VideoMoments", opts, '', '', true, {}, false);
+        return await GraphQL.SendQuery("VideoPreviewCard__VideoMoments", opts, '', '', true, {}, false, proxy);
     },
-    async GetVideoMetadata(channelLogin, vodID, variables = {}) {
+    async GetVideoMetadata(channelLogin, vodID, variables = {}, proxy = '') {
         let opts = {
             channelLogin,
             videoID: vodID,
             ...variables
         };
-        return await GraphQL.SendQuery("VideoMetadata", opts, '', '', true, {}, false);
+        return await GraphQL.SendQuery("VideoMetadata", opts, '', '', true, {}, false, proxy);
     },
-    async GetChatClip(clipSlug, variables = {}) {
+    async GetChatClip(clipSlug, variables = {}, proxy = '') {
         let opts = {
             clipSlug,
             ...variables
         };
-        return await GraphQL.SendQuery("ChatClip", opts, '', '', true, {}, false);
+        return await GraphQL.SendQuery("ChatClip", opts, '', '', true, {}, false, proxy);
     },
-    async GetDirectoryPageGame(game, variables = {}) {
+    async GetDirectoryPageGame(game, variables = {}, proxy = '') {
         let opts = {
             name: game,
             ...variables
         };
-        return await GraphQL.SendQuery("DirectoryPage_Game", opts, '', '', true, {}, false);
+        return await GraphQL.SendQuery("DirectoryPage_Game", opts, '', '', true, {}, false, proxy);
     },
-    async GetLiveStatus(channelLogin, variables = {}) {
+    async GetLiveStatus(channelLogin, variables = {}, proxy = '') {
         let opts = {
             channelLogin: channelLogin,
             ...variables
         };
-        let livestatus = await GraphQL.SendQuery("UseLive", opts, '', "", true, {}, false)
+        let livestatus = await GraphQL.SendQuery("UseLive", opts, '', "", true, {}, false, proxy)
         if (livestatus[0].data.user == null) {
             return null
         } else {
             return livestatus[0].data.user.stream != null
         }
     },
-    async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, headers = {}, Integrity = false) {
-        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, headers, Integrity);
+    async _SendQuery(QueryName, variables, sha256Hash = null, OAuth = null, preset = false, headers = {}, Integrity = false, proxy = '') {
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, headers, Integrity, proxy);
     }
 };
 
