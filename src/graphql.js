@@ -23,7 +23,7 @@ const GraphQL = {
     Endpoint: "https://gql.twitch.tv/gql",
     ClientID: null,
     retries: 0,
-    retrytimeout: 60000,
+    retrytimeout: 20000,
     maxretries: 4,
 
     SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = false, proxy = '') => {
