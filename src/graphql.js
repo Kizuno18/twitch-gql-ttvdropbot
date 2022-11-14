@@ -57,7 +57,7 @@ const GraphQL = {
             let integrity = ''
 
             //session + device + client
-            const ProxyAgent = new HttpsProxyAgent(proxyString)
+            const ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
 
             const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
             let cookies = response.headers.raw()["set-cookie"]
