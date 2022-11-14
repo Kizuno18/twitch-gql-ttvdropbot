@@ -28,32 +28,33 @@ const GraphQL = {
     retrytimeout: 60000,
     maxretries: 4,
 
-    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers = {}, Integrity = false, proxy = '') => {
-        let body = { variables };
+    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '', preset = false, Headers = {}, Integrity = false, proxy = '') => {
+        let body = {
+            variables
+        };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
         __proxy = proxy;
         let proxyString = (__proxy === '') ? null : __proxy
-        
+
 
         console.log('_SendQuery -> ' + __proxy)
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
-        
+
         if (!preset) {
             body.query = fs.readFileSync(`${__dirname}/../queries/${QueryName}.gql`, "UTF-8");
-        }
-        else {
+        } else {
             body.operationName = QueryName;
             body.extensions = {
                 "persistedQuery": {
-                    "version":1,
+                    "version": 1,
                     "sha256Hash": Hash
                 }
             };
             body = [body];
         }
         let integriheaders = {}
-        
+
         if (Integrity) {
             //Integrity
             let session = ''
@@ -62,76 +63,64 @@ const GraphQL = {
             let integrity = ''
 
             //session + device + client
-            
-            if (proxyString !== null){
+
+            if (proxyString !== null) {
                 var parts = proxyString.split(':');
                 let ip = parts[0];
                 let port = parts[1];
                 let username = parts.length > 2 ? parts[2] : "";
                 let password = parts.length > 2 ? parts[3] : "";
-    
-                if (parts.length > 2){
+
+                if (parts.length > 2) {
                     proxyString = `http://${username}:${password}@${ip}:${port}`
-                }
-                else {
+                } else {
                     proxyString = `http://${ip}:${port}`
                 }
                 __ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
-            console.log('https://twitch.tv' + __ProxyAgent)
-            try {
-                const response = await fetch('https://twitch.tv', {agent: __ProxyAgent});
-                let cookies = response.headers.raw()["set-cookie"]
-    
-                cookies.forEach((cookie) => {
-                    if (cookie.startsWith('server_session_id')) {
-                        let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
-                        session = value[0]
-                    } else if (cookie.startsWith('unique_id') && !cookie.startsWith('unique_id_durable')) {
-                        let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
-                        deviceid = value[0]
-                    }
-                })
 
-                let htmlReg = new RegExp('twilightBuildID="([-a-z0-9]+)"')
-                let rawdata = await response.text()
-                let clientversion = htmlReg.exec(rawdata.toString())
-                version = clientversion[1]
+            const response = await fetch('https://twitch.tv', {
+                agent: __ProxyAgent
+            });
+            let cookies = response.headers.raw()["set-cookie"]
 
-                console.log('ok');
-            }
-            catch (error) {
-                console.log(error)
-            }
-            
+            cookies.forEach((cookie) => {
+                if (cookie.startsWith('server_session_id')) {
+                    let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
+                    session = value[0]
+                } else if (cookie.startsWith('unique_id') && !cookie.startsWith('unique_id_durable')) {
+                    let value = cookie.match(/(?<=\=)\w+(?=\;)/g) || [];
+                    deviceid = value[0]
+                }
+            })
 
-            
+            let htmlReg = new RegExp('twilightBuildID="([-a-z0-9]+)"')
+            let rawdata = await response.text()
+            let clientversion = htmlReg.exec(rawdata.toString())
+            version = clientversion[1]
+
+
+
 
             //integrity
 
-            console.log('https://gql.twitch.tv/integrity' + __ProxyAgent)
-            try {
-                const result = await fetch('https://gql.twitch.tv/integrity', {
-                    method: 'post',
-                    body: JSON.stringify({}),
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'Client-ID': GraphQL.ClientID,
-                        'Client-Session-Id': session,
-                        'X-Device-Id': deviceid,
-                        'Client-Version': version,
-                        'Authorization': OAuth
-                    }
-                });
-                const data = await result.json();
-                integrity = data.token
-                console.log('ok')
-            }
-            catch (error)
-            {
-                console.log(error)
-            }
-            
+
+            const result = await fetch('https://gql.twitch.tv/integrity', {
+                method: 'post',
+                body: JSON.stringify({}),
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Client-ID': GraphQL.ClientID,
+                    'Client-Session-Id': session,
+                    'X-Device-Id': deviceid,
+                    'Client-Version': version,
+                    'Authorization': OAuth
+                }
+            });
+            const data = await result.json();
+            integrity = data.token
+
+
 
             integriheaders = {
                 'Client-Session-Id': session,
@@ -142,7 +131,7 @@ const GraphQL = {
         }
 
         let GraphGQLResponse = {}
-        
+
         try {
             console.log('GraphGQLRequest -> ' + __ProxyAgent)
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
@@ -160,12 +149,10 @@ const GraphQL = {
             });
             GraphGQLResponse = await GraphGQLRequest.json();
         } catch (error) {
-            console.log(error)
             return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, __proxy)
         }
-        
+
         if (GraphGQLResponse.errors || (GraphGQLResponse[0] && GraphGQLResponse[0].errors) || GraphGQLResponse.error) {
-            console.log(GraphGQLResponse)
             return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, __proxy)
         }
         GraphQL.retries = 0;
@@ -177,13 +164,12 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
     if (GraphQL.retries < GraphQL.maxretries) {
         GraphQL.retries++
         if (error instanceof Array) {
-            console.log("GQL RESPONSE ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout/1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
+            console.log("GQL RESPONSE ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout / 1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
         } else {
             console.log("GQL ERROR! " + QueryName + " Request Failed... Retrying in " + (GraphQL.retrytimeout / 1000) + " seconds... Try: " + GraphQL.retries + "/" + GraphQL.maxretries)
             console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
         }
         await delay(GraphQL.retrytimeout)
-        console.log('errorHandler -> ' + proxy)
         return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxy);
     } else {
         if (error.code === undefined) {
