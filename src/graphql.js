@@ -23,10 +23,10 @@ const GraphQL = {
     Endpoint: "https://gql.twitch.tv/gql",
     ClientID: null,
     retries: 0,
-    retrytimeout: 20000,
+    retrytimeout: 60000,
     maxretries: 4,
 
-    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = false, proxy = '') => {
+    SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers = {}, Integrity = false, proxy = '') => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
         let proxyString = (proxy === '') ? null : proxy
@@ -74,6 +74,7 @@ const GraphQL = {
                 }
                 ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
+            console.log('https://twitch.tv' + ProxyAgent)
             const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
             let cookies = response.headers.raw()["set-cookie"]
 
@@ -94,6 +95,7 @@ const GraphQL = {
 
             //integrity
 
+            console.log('https://gql.twitch.tv/integrity' + ProxyAgent)
             const result = await fetch('https://gql.twitch.tv/integrity', {
                 agent: ProxyAgent,
                 method: 'post',
@@ -121,6 +123,7 @@ const GraphQL = {
         let GraphGQLResponse = {}
         
         try {
+            console.log('GraphGQLRequest' + ProxyAgent)
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
                 agent: ProxyAgent,
                 method: 'post',
@@ -157,6 +160,7 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
             console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
         }
         await delay(GraphQL.retrytimeout)
+        console.log('errorHandler' + proxyString)
         return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxyString);
     } else {
         if (error.code === undefined) {
