@@ -29,7 +29,7 @@ const GraphQL = {
     SendQuery: async (QueryName, variables = null, sha256Hash = '', OAuth = '',  preset = false, Headers  = {}, Integrity = false, proxy = '') => {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
-        let proxyString = (proxy === '') ? null : proxy
+        let proxyString = (proxy === '' || proxy === undefined || proxy === null) ? null : proxy
 
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
