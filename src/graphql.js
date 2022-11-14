@@ -1,7 +1,6 @@
 const fs = require("fs");
 const fetch = require("node-fetch")
-const HttpsProxyAgent = require('https-proxy-agent');
-
+const tunnel = require('tunnel');
 const Operation_Hashes = {
     'CollectionSideBar': '27111f1b382effad0b6def325caef1909c733fe6a4fbabf54f8d491ef2cf2f14',
     'FilterableVideoTower_Videos': 'a937f1d22e269e39a03b509f65a7490f9fc247d7f83d6ac1421523e3b68042cb',
@@ -58,25 +57,35 @@ const GraphQL = {
 
             //session + device + client
             
-            let ProxyAgent = null;
+            let agent = null
             if (proxyString !== null){
                 var parts = proxyString.split(':');
                 let ip = parts[0];
-                let port = parts[1];
+                let portO = parts[1];
                 let username = parts.length > 2 ? parts[2] : "";
                 let password = parts.length > 2 ? parts[3] : "";
     
                 if (parts.length > 2){
-                    proxyString = `http://${username}:${password}@${ip}:${port}`
+                    agent = tunnel.httpsOverHttp({
+                        proxy: {
+                            host: `http://${ip}`,
+                            port: portO,
+                            proxyAuth: `${username}:${password}`,
+                        },
+                    });
                 }
                 else {
-                    proxyString = `http://${ip}:${port}`
+                    agent = tunnel.httpsOverHttp({
+                        proxy: {
+                            host: `http://${ip}`,
+                            port: portO
+                        },
+                    });
                 }
-                ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
 
-            console.log(ProxyAgent);
-            const response = await fetch('https://twitch.tv', {agent: ProxyAgent});
+            console.log(agent);
+            const response = await fetch('https://twitch.tv', {agent: agent});
             let cookies = response.headers.raw()["set-cookie"]
 
             cookies.forEach((cookie) => {
