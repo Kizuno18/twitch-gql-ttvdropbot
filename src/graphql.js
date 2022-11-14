@@ -30,7 +30,7 @@ const GraphQL = {
         let body = { variables };
         let Hash = (sha256Hash === '') ? Operation_Hashes[QueryName] : sha256Hash
         let proxyString = (proxy === '' || proxy === undefined || proxy === null) ? null : proxy
-
+        console.log(proxyString);
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
         
