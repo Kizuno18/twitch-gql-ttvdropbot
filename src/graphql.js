@@ -36,8 +36,6 @@ const GraphQL = {
         __proxy = proxy;
         let proxyString = (__proxy === '') ? null : __proxy
 
-
-        console.log('_SendQuery -> ' + __proxy)
         if (!GraphQL.ClientID)
             throw "Please make sure to fill in a ClientID";
 
@@ -133,7 +131,6 @@ const GraphQL = {
         let GraphGQLResponse = {}
 
         try {
-            console.log('GraphGQLRequest -> ' + __ProxyAgent)
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
                 agent: __ProxyAgent,
                 method: 'post',
