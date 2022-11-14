@@ -93,7 +93,7 @@ const GraphQL = {
                 let rawdata = await response.text()
                 let clientversion = htmlReg.exec(rawdata.toString())
                 version = clientversion[1]
-                
+
                 console.log('ok');
             }
             catch (error) {
@@ -178,7 +178,7 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
         }
         await delay(GraphQL.retrytimeout)
         console.log('errorHandler -> ' + proxy)
-        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, prproxyxy);
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxy);
     } else {
         if (error.code === undefined) {
             if (error instanceof Array) {
