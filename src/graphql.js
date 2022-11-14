@@ -89,6 +89,11 @@ const GraphQL = {
                     }
                 })
 
+                let htmlReg = new RegExp('twilightBuildID="([-a-z0-9]+)"')
+                let rawdata = await response.text()
+                let clientversion = htmlReg.exec(rawdata.toString())
+                version = clientversion[1]
+                
                 console.log('ok');
             }
             catch (error) {
@@ -96,10 +101,7 @@ const GraphQL = {
             }
             
 
-            let htmlReg = new RegExp('twilightBuildID="([-a-z0-9]+)"')
-            let rawdata = await response.text()
-            let clientversion = htmlReg.exec(rawdata.toString())
-            version = clientversion[1]
+            
 
             //integrity
 
