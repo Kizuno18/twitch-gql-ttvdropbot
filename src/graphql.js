@@ -67,10 +67,10 @@ const GraphQL = {
                 let password = parts.length > 2 ? parts[3] : "";
     
                 if (parts.length > 2){
-                    proxyString = `http://${username}:${password}@${ip}:${port}`
+                    proxyString = `https://${username}:${password}@${ip}:${port}`
                 }
                 else {
-                    proxyString = `http://${ip}:${port}`
+                    proxyString = `https://${ip}:${port}`
                 }
                 ProxyAgent = new HttpsProxyAgent.HttpsProxyAgent(proxyString)
             }
