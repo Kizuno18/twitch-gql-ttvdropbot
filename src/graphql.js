@@ -104,20 +104,28 @@ const GraphQL = {
             //integrity
 
             console.log('https://gql.twitch.tv/integrity' + ProxyAgent)
-            const result = await fetch('https://gql.twitch.tv/integrity', {
-                method: 'post',
-                body: JSON.stringify({}),
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Client-ID': GraphQL.ClientID,
-                    'Client-Session-Id': session,
-                    'X-Device-Id': deviceid,
-                    'Client-Version': version,
-                    'Authorization': OAuth
-                }
-            });
-            const data = await result.json();
-            integrity = data.token
+            try {
+                const result = await fetch('https://gql.twitch.tv/integrity', {
+                    method: 'post',
+                    body: JSON.stringify({}),
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Client-ID': GraphQL.ClientID,
+                        'Client-Session-Id': session,
+                        'X-Device-Id': deviceid,
+                        'Client-Version': version,
+                        'Authorization': OAuth
+                    }
+                });
+                const data = await result.json();
+                integrity = data.token
+                console.log('ok')
+            }
+            catch (error)
+            {
+                console.log(error)
+            }
+            
 
             integriheaders = {
                 'Client-Session-Id': session,
@@ -130,7 +138,7 @@ const GraphQL = {
         let GraphGQLResponse = {}
         
         try {
-            console.log('GraphGQLRequest' + ProxyAgent)
+            console.log('GraphGQLRequest -> ' + ProxyAgent)
             const GraphGQLRequest = await fetch(GraphQL.Endpoint, {
                 agent: ProxyAgent,
                 method: 'post',
@@ -146,18 +154,18 @@ const GraphQL = {
             });
             GraphGQLResponse = await GraphGQLRequest.json();
         } catch (error) {
-            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxyString)
+            return await errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy)
         }
         
         if (GraphGQLResponse.errors || (GraphGQLResponse[0] && GraphGQLResponse[0].errors) || GraphGQLResponse.error) {
-            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, proxyString)
+            return await errorHandler(GraphGQLResponse, QueryName, variables, sha256Hash, OAuth, preset, proxy)
         }
         GraphQL.retries = 0;
         return GraphGQLResponse
     }
 }
 
-async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxyString) {
+async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, preset, proxy) {
     if (GraphQL.retries < GraphQL.maxretries) {
         GraphQL.retries++
         if (error instanceof Array) {
@@ -167,8 +175,8 @@ async function errorHandler(error, QueryName, variables, sha256Hash, OAuth, pres
             console.log("With GQL Error! Errno: " + error.errno + " Code: " + error.code + " Syscall: " + error.syscall + " Hostname: " + error.hostname)
         }
         await delay(GraphQL.retrytimeout)
-        console.log('errorHandler' + proxyString)
-        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, proxyString);
+        console.log('errorHandler -> ' + proxy)
+        return await GraphQL.SendQuery(QueryName, variables, sha256Hash, OAuth, preset, prproxyxy);
     } else {
         if (error.code === undefined) {
             if (error instanceof Array) {
