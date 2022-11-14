@@ -68,8 +68,7 @@ const GraphQL = {
                 if (parts.length > 2){
                     agent = tunnel.httpsOverHttp({
                         proxy: {
-                            host: `http://${ip}`,
-                            port: portO,
+                            host: `http://${ip}:${portO}`,
                             proxyAuth: `${username}:${password}`,
                         },
                     });
@@ -77,8 +76,7 @@ const GraphQL = {
                 else {
                     agent = tunnel.httpsOverHttp({
                         proxy: {
-                            host: `http://${ip}`,
-                            port: portO
+                            host: `http://${ip}:${portO}`,
                         },
                     });
                 }
