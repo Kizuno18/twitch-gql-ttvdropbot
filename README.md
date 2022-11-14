@@ -4,9 +4,9 @@
 
 # Installation
 
-Install it from [npm](https://github.com/Zaarrg/twitch-gql-ttvdropbot):
+Install it from [npm](https://github.com/r1soX/twitch-gql-ttvdropbot):
 
-    $  npm install zaarrg/twitch-gql-ttvdropbot
+    $  npm install r1soX/twitch-gql-ttvdropbot
 
 # Contents
 - [How to use](#how-to-use)
@@ -110,7 +110,3 @@ Set the maximum of Retries.
 - `integrity` - (default false) if `true` will add the integrity check to the request
 
 Send a raw query through GraphQL
-
-# About
-
-Made by poespas ( me@poespas.me ) edited by Zarg for the use with TTVDropBot
