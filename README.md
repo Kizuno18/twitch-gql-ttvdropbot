@@ -1,3 +1,6 @@
+Archived.
+For the ones want to study, feel free, i wont support.
+
 # TwitchGQL
 
 ### Allows interaction with Twitch via the Twitch's inner GraphQL protocol (Modified for TTVDropBot)
